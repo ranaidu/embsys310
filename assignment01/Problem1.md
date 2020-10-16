@@ -1,10 +1,9 @@
-Problem 1: Embedded device example
+# Problem 1: Embedded device example
+## Using the telegraph example, and the challenges listed in the module as reference, and describe another device that you would like to discuss. Describe how you think its embedded system works, and what design challenges it presents.
 
-Using the telegraph example, and the challenges listed in the module as reference, and describe another device that you would like to discuss. Describe how you think its embedded system works, and what design challenges it presents.
+Another interesting example is Electronic toll collection system which allows nonstop toll collection as well as continuous monitoring of traffic.
 
-Another interesting example I think of is Electronic toll collection system which allows nonstop toll collection as well as continuous monitoring of traffic.
-
-How it works?
+## How it works?
 * Each vehicle will have a unique RFID tag.
 * Toll plaza will have a receiver module which contains microcontroller.
 * This microcontroller will connect to different peripherical like LCD display, RFID reader, Controller…
@@ -12,7 +11,7 @@ How it works?
 * System access the data corresponding to that ID and transaction begin, depend on the balance available, toll will deduct directly.
 * All toll plazas will be connected to each other to centralized server thus updating and monitoring is very easy.
 
-Design  Challenges:
+## Design  Challenges:
 * Response – microcontroller should complete its response before the vehicle cross the plaza, so the response should be fast.
 * Throughput – The number of vehicles might be huge some time
 * Testability – The data/connectivity of the module might lost. The conditions in the outdoors might be entirely different than the test environment.
